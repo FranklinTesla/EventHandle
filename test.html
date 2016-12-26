@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="events.js"></script>
+<script>
+    var ev = new EventHandle();
+    function lalala() {
+        console.log('cao');
+    }
+    ev.on('hehe', lalala).on('hehe', function() {
+        console.log('nima');
+    });
+    ev.off('hehe', lalala);
+    ev.emit('hehe');
+</script>
+</body>
+</html>
