@@ -1,2 +1,2 @@
 # EventHandle
-Jsut a simple realization of custom event system in JavaScript.
+Just a simple realization of custom event system in JavaScript.
